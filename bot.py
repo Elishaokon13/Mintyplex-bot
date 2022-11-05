@@ -34,7 +34,7 @@ def start(update, context):
             }
         }))
     context.bot.send_message(
-        chat_id=chat_id, text="Welcome to Fauna TO-DO, your details have been saved 😊\n\nHere are a few commands to guide you\n/add_todo - add a todo task\n/list_todo - list a todo task")
+        chat_id=chat_id, text="Welcome to Mintyplex TO-DO, your details have been saved 😊\n\nHere are a few commands to guide you\n/add_todo - add a todo task\n/list_todo - list a todo task")
 
 
 def add_todo(update, context):
