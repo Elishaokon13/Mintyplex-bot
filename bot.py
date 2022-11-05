@@ -9,7 +9,7 @@ from faunadb.objects import Ref
 from faunadb.client import FaunaClient
 
 telegram_bot_token = "5703117571:AAGIChhnxPYrUXXJSLw4U5rQmdS2H6FgEkY"
-fauna_secret = "fnAE0mB6RoACTNhvtUs6GrWzAyWRh-7SnIPvy4an"
+fauna_secret = "fnAE0maXm0ACSwlsP5X7k4t-iuBaIca__dap92EY"
 
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
